@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Meds - Affordable GLP-1 Weight Management</title>
+    <meta name="description" content="Get GLP-1 medication starting at $499/month. Includes consultation, medication from licensed compounding pharmacies, and ongoing follow-ups via telemedicine.">
+    
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Calendly Widget Script (loaded later) -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/random/1600x900/?health,wellness'); background-size: cover; color: white; padding: 150px 0; }
+        .price-highlight { font-size: 3rem; font-weight: bold; }
+        section { padding: 80px 0; }
+        .bg-light-gray { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Prime Meds</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-3" href="#book">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Affordable GLP-1 Weight Management</h1>
+            <p class="lead">Starting at <span class="price-highlight">$499/month</span></p>
+            <p class="lead">Includes medication, initial consultation, follow-up consults for refills, and shipping — all via telemedicine.</p>
+            <a href="#book" class="btn btn-light btn-lg mt-4">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- What's Included -->
+    <section id="pricing" class="bg-light-gray">
+        <div class="container">
+            <h2 class="text-center mb-5">Everything Included for $499/Month</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>Medication</h4>
+                    <p>Compounded GLP-1 (e.g., semaglutide) from U.S.-licensed 503A/503B compounding pharmacies using high-quality ingredients.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Telemedicine Consultation</h4>
+                    <p>Online video or messaging visits with licensed healthcare providers.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Ongoing Support</h4>
+                    <p>Follow-up consults for refills, personalized plan adjustments, and direct shipping to your door.</p>
+                </div>
+            </div>
+            <p class="text-center mt-4"><strong>No insurance required. Month-to-month — cancel anytime.</strong></p>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works">
+        <div class="container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>1. Complete Intake</h3>
+                    <p>Fill out a quick online medical questionnaire (and labs if needed).</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>2. Provider Consultation</h3>
+                    <p>Video or message consult via our secure telemedicine platform.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>3. Get Medication</h3>
+                    <p>If approved, compounded medication shipped discreetly every 30-90 days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="bg-light-gray">
+        <div class="container">
+            <h2 class="text-center mb-5">Learn More (Watch Video)</h2>
+            <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+                <!-- Replace the src with your own YouTube video URL (e.g., an explainer or injection tutorial) -->
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="GLP-1 Explainer Video" allowfullscreen></iframe>
+            </div>
+            <p class="text-center mt-3">Video explains the program, benefits, and safe usage.</p>
+        </div>
+    </section>
+
+    <!-- Booking Calendar -->
+    <section id="book">
+        <div class="container">
+            <h2 class="text-center mb-5">Book Your Free Initial Consultation</h2>
+            <p class="text-center mb-5">Schedule a time that works for you. No obligation — only pay if prescribed.</p>
+            
+            <!-- Calendly Inline Widget - REPLACE THE DATA-URL WITH YOUR OWN -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/your-calendly-username/initial-glp1-consult?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:800px;"></div>
+            
+            <p class="text-center mt-4"><em>Replace the Calendly URL above with your own after creating a free account at calendly.com.</em></p>
+        </div>
+    </section>
+
+    <!-- Disclaimer/Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <p><strong>Important Disclaimer:</strong> This is not medical advice. Treatments are available only if deemed appropriate by a licensed provider after consultation. Medication is compounded in licensed U.S. pharmacies and requires a prescription. Results vary. Consult a healthcare professional for personalized advice.</p>
+            <p>&copy; 2025 Prime Meds. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
